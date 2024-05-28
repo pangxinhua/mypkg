@@ -15,6 +15,7 @@ func main() {
     var r string
     r = a.Say("tom")
     a.Hello("tom")
+    a.Hello("tom1")
     b.World("jim")
     fmt.Println(r)
     r = mypkg.Read("tom")
